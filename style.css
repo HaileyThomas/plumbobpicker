@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+body {
+    background-color: forestgreen;
+}
+
+p {
+    font-family: Georgia;
+    font-size: large;
+}
+
+#container {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: auto;
+    width: 560px;
+    background-color: white;
+}
+
+#heading {
+    text-align: center;
+}
+
+.btnback {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    width: auto;
+    text-align: center;
+    background-color: forestgreen;
+}
+
+.main {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    width: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.btn {
+    background-color: forestgreen;
+    border: solid 2px #000000;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 8px 8px 0 #000000, 0 6px 6px 0 #000000;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    background: forestgreen;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+}
